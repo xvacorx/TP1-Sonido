@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2848496193220005962
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8649653238850274317}
+  - component: {fileID: 7152992966972733718}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8649653238850274317
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2848496193220005962}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7152992966972733718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2848496193220005962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7df7a4ae27f84e345b251a9b5502eb1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: AxeSwing
+    clip: {fileID: 8300000, guid: 2827378892f538e4cb629df16f4b1504, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Hurt
+    clip: {fileID: 8300000, guid: 0f6ed42f54f67f147990c199ee7462e7, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Confirm
+    clip: {fileID: 8300000, guid: 15fa28451439df54f8afbff0a99c95bc, type: 3}
+    volume: 0.35
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Back
+    clip: {fileID: 8300000, guid: 6e5ea94afa10f2c4c9d1605b199e1288, type: 3}
+    volume: 0.42
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Ambience
+    clip: {fileID: 8300000, guid: 147cdf063b0da4f47886051b61e5407c, type: 3}
+    volume: 0.35
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Pause
+    clip: {fileID: 8300000, guid: 3e1c74dd5b5210e4b9ca907b35281060, type: 3}
+    volume: 0.35
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Win
+    clip: {fileID: 8300000, guid: fbf9ea5870403654c8a6392c19826e1f, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Event
+    clip: {fileID: 8300000, guid: c84a9a0dbb5d13c469406665164c31d6, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Lose
+    clip: {fileID: 8300000, guid: 39dea177f583ef147ad92162d7c51e67, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Completed
+    clip: {fileID: 8300000, guid: 6d72eb4624ee98147a269f6fefc7c804, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Rune
+    clip: {fileID: 8300000, guid: 305394ff6d0a7cc469c0c67aeaff5f6a, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
